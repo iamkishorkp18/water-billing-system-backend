@@ -1,0 +1,1 @@
+ALTER TABLE apartments ADD COLUMN usage_threshold_multiplier NUMERIC(4,2) NOT NULL DEFAULT 1.5;
